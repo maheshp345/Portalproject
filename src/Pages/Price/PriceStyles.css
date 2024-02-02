@@ -1,0 +1,39 @@
+
+.card{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    
+   
+}
+
+.cards{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    width:300px;
+    border:1px solid white;
+    gap:20px;
+    border-radius: 5px;
+    transition: 0.5s all ease-in ;
+    
+}
+
+.cards:hover{
+    transform: scale(1.05);
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    margin:50px;
+    flex-wrap: wrap;
+
+}
